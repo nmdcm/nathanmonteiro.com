@@ -4,7 +4,6 @@
 * {
   margin: 0;
   padding: 0;
-  /* scroll-snap-type: y mandatory; */
 }
 ::-webkit-scrollbar {
   width: 0;  /* Remove scrollbar space */
@@ -14,9 +13,7 @@ body {
   font-family: 'Nunito', sans-serif;
   color: white;  
 }
-/* section{
-  scroll-snap-align: start;
-} */
+
 a{
   color: white;
   text-decoration: none;
