@@ -280,12 +280,18 @@ h1{
   }
 }
 @media screen and (max-width: 480px) {
+  h1{
+    padding-top: 3vh;
+
+  }
+  #proj-title{
+    padding-bottom: 3.5vh;
+  }
   .scroll-indicator{
     display: none;
   }
   .exp{
     width: 80vw;
-    margin: 60px auto;
   }
   .logo{
     font-size: 6vw;
@@ -293,7 +299,7 @@ h1{
   }
   .proj{
     width: 80vw;
-    margin: 60px auto;
+   
   }
   .company-logo{
     display: block;
@@ -340,13 +346,20 @@ h1{
 }
 @media screen and (max-width: 444px) {
   .terminal{
-    margin-top: 3vh;
+    margin-top: 20vh;
   }
   .terminal-text{
     padding-top: 0;
   }
   .hero-sec{
-    height: 430px;
+    height: 90vh;
+  }
+  
+  .proj{
+    margin: 0 auto;
+  }
+  .scroll-indicator{
+    display: none;
   }
 }  
 @media screen and (max-height: 414px) {
@@ -372,15 +385,19 @@ h1{
   .scroll-indicator{
     display: none;
   }
+  h1{
+    padding-top: 4vh;
+    padding-bottom: 3vh;
+  }
   .exp{
     width: 80vw;
-    margin: 60px auto;
+    margin: 50px auto;
     font-size: 15px;
   }
   
   .proj{
     width: 80vw;
-    margin: 60px auto;
+    margin: 10px auto;
     font-size: 15px;
 
   }
