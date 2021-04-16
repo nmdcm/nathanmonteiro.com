@@ -280,6 +280,9 @@ h1{
   }
 }
 @media screen and (max-width: 480px) {
+  .scroll-indicator{
+    display: none;
+  }
   .exp{
     width: 80vw;
     margin: 60px auto;
@@ -346,4 +349,44 @@ h1{
     height: 430px;
   }
 }  
+@media screen and (max-height: 414px) {
+  .fakeButtons{
+    display: none;
+  }
+  .fakeMenu{
+    display: none;
+  }
+  .fakeScreen{
+    background-color: #1f2328;
+  }
+  .terminal{
+    margin-top: 6vh;
+  }
+  .terminal-text{
+    font-size: 8vh;
+    padding-top: 0;
+  }
+  .hero-sec{
+    height: 100vh;
+  }
+  .scroll-indicator{
+    display: none;
+  }
+  .exp{
+    width: 80vw;
+    margin: 60px auto;
+  }
+  
+  .proj{
+    width: 80vw;
+    margin: 60px auto;
+  }
+  .company-logo{
+    display: none;
+  }
+  .logo{
+    font-size: 5vw;
+    padding: 2vh 0;
+  }
 
+  }
