@@ -360,7 +360,7 @@ h1{
     background-color: #1f2328;
   }
   .terminal{
-    margin-top: 6vh;
+    margin-top: 7vh;
   }
   .terminal-text{
     font-size: 8vh;
@@ -375,18 +375,22 @@ h1{
   .exp{
     width: 80vw;
     margin: 60px auto;
+    font-size: 15px;
   }
   
   .proj{
     width: 80vw;
     margin: 60px auto;
+    font-size: 15px;
+
   }
   .company-logo{
     display: none;
   }
   .logo{
-    font-size: 5vw;
+    font-size: 3vw;
     padding: 2vh 0;
   }
+
 
   }
