@@ -252,7 +252,7 @@ h1{
   opacity:1;
 }
 
-@media only screen and (max-width: 1049px) {
+/* @media only screen and (max-width: 1049px) {
   .exp{
     width: 700px;
   }
@@ -288,7 +288,7 @@ h1{
   .exp{
     width: 400px;
     margin: 60px auto;
-    /* font-size: 15px; */
+
   }
   .company-logo{
     display: none;
@@ -304,3 +304,146 @@ h1{
   }
   
 }
+@media (max-width: 375px) {
+  .logo {
+    font-size: 90%;
+  }
+  .terminal{
+    width: 90vw;
+    margin: auto auto;
+  }
+
+  .fakeScreen{
+    height: 350px;
+  }
+
+  .terminal-text{
+    padding-left: 0;
+    padding-top: 25%;
+    font-size: 30px;
+  
+  }
+  .fakeMenu{
+    margin-top: 30%;
+  }
+  .exp{
+    width: 350px;
+    margin: 60px auto;
+  }
+  .company-logo{
+    display: none;
+  }
+  .proj{
+    width:350px;
+  }
+  .title{
+    font-size: 16px;
+  }
+  .exp-dur-loc{
+    font-size: 14px;
+  }
+  
+  .footer-basic li {
+    display:inline; 
+    padding:0 5px;
+    font-size: 15px;
+  }
+  .fa{
+    float: left;
+  }
+} */
+
+@media screen and (max-width: 768px) {
+  .exp{
+    width: 80vw;
+    margin: 60px auto;
+  }
+  .proj{
+    width: 80vw;
+    margin: 60px auto;
+  }
+  .logo{
+    font-size: 6vw;
+    padding: 3vw 0;
+  }
+  .company-logo{
+    display: none;
+  }
+  .terminal{
+    width: 80vw;
+    margin-top: 15vh;
+  }
+  .terminal-text{
+    font-size: 4vh;
+  }
+  .title{
+    font-size: 18px;
+  }
+}
+@media screen and (max-width: 480px) {
+  .exp{
+    width: 80vw;
+    margin: 60px auto;
+  }
+  .logo{
+    font-size: 6vw;
+    padding: 5vw 0;
+  }
+  .proj{
+    width: 80vw;
+    margin: 60px auto;
+  }
+  .company-logo{
+    display: block;
+    float:right;
+    margin:0;
+ 
+  }
+  .low-width{
+    font-size: 8vw;
+  }
+  .exp-dur-loc{
+    display: none;
+  }
+  .terminal{
+    width: 90vw;
+    margin-top: 2vh;
+  }
+  .fakeScreen{
+    height: 30vh;
+  }
+  .terminal-text{
+    font-size: 10vw;
+  }
+  .hero-sec{
+    height: 70vh;
+  }
+  .title{
+    font-size: 18px;
+  }
+  .footer-basic li {
+    font-size: 4vw;
+    padding:0 10px;
+  }
+  .fakeButtons{
+    display: none;
+  }
+  .fakeMenu{
+    display: none;
+  }
+  .fakeScreen{
+    background-color: #1f2328;
+  }
+}
+@media screen and (max-width: 444px) {
+  .terminal{
+    margin-top: 3vh;
+  }
+  .terminal-text{
+    padding-top: 0;
+  }
+  .hero-sec{
+    height: 50vh;
+  }
+}  
+

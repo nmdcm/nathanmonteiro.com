@@ -1,6 +1,6 @@
 
 const textDisplay = document.getElementById('typewriter')
-const phrases = ["Hello World! ", '<span class="hand">&#128075;</span>', "<br>", "<br>", "I'm", "<b>", " Nathan", "</b>", ", a Developer ", "&#x1F468;&#x200D;&#x1F4BB;", " based in Dubai"]
+const phrases = ['<span class="low-width">',"Hello World! ", '<span class="hand">&#128075;</span>','<span>', "<br>", "<br>", "I'm", "<b>", " Nathan", "</b>", ", a Developer ", "&#x1F468;&#x200D;&#x1F4BB;", " based in Dubai"]
 let i = 0
 let j = 0
 let currentPhrase = []
