@@ -437,13 +437,13 @@ h1{
 }
 @media screen and (max-width: 444px) {
   .terminal{
-    margin-top: 3vh;
+    margin-top: 2vh;
   }
   .terminal-text{
     padding-top: 0;
   }
   .hero-sec{
-    height: 50vh;
+    height: 60vh;
   }
 }  
 
