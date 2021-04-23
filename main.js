@@ -53,9 +53,11 @@ AOS.init({
 });
 
 $("#button").click(function() {
+  document.querySelector(".scroll-indicator").style.animation = "disappear 1s";
   $('html, body').animate({
       scrollTop: $("#work").offset().top
   }, 1300);
+  
 });
 $("#exp-title").click(function() {
   $('html, body').animate({

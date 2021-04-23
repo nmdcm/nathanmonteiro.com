@@ -154,6 +154,17 @@ h1{
   animation-play-state: paused;
 }
 
+@keyframes disappear {
+  0%{
+    opacity: 0.9;
+  }
+  50%{
+    opacity: 0.5;
+  }
+  100% {
+    opacity:0;
+  }
+}
 @keyframes bounce {
   50% {
     opacity:1;
