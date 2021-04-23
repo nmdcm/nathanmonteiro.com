@@ -9,8 +9,9 @@ let isBR = false
 async function displayAnimations() {
   await new Promise(r => setTimeout(r, 500));
   document.querySelector(".hand").style.animationPlayState = "running";
-  await new Promise(r => setTimeout(r, 4000));
+  await new Promise(r => setTimeout(r, 2000));
   document.querySelector(".scroll-indicator").style.animationPlayState = "running";
+  
 }
 
 function type() {
@@ -51,6 +52,41 @@ AOS.init({
   easing: 'ease-in-quad',
 });
 
+$("#button").click(function() {
+  $('html, body').animate({
+      scrollTop: $("#work").offset().top
+  }, 1300);
+});
+$("#exp-title").click(function() {
+  $('html, body').animate({
+      scrollTop: $("#work").offset().top
+  }, 1300);
+});
 
+$("#proj-title").click(function() {
+  $('html, body').animate({
+      scrollTop: $("#projects").offset().top
+  }, 1300);
+});
+
+// var test = true;
+
+
+// $(window).scroll(function() {
+//     var scroll = $(window).scrollTop();
+//     if(scroll > 10 && test) {
+//       $('html, body').animate({
+//         scrollTop: $("#work").offset().top
+//     }, 1300);
+//     test = false;
+//     } 
+    
+// });
+// $(window).scroll(function() {
+//   if(window.scrollY<10){
+//       test = true;
+//   }
+
+// });
 
 
