@@ -35,7 +35,7 @@ h1{
   padding: 1%;
   display: block;
   text-align: center;
-  font-size: 2rem;
+  font-size: 1.8rem;
   font-weight: 600;
   color: whitesmoke;
   background-color: #1d1d1d;
@@ -47,7 +47,8 @@ h1{
   background-position: center;
   width: 650px;
   margin:0 auto;
-  margin-top: 5%;
+  
+  margin-top: 12vh;
 }
 .fakeButtons {
   height: 12px;
@@ -79,6 +80,7 @@ h1{
   background-color: #2f2f2f;
   border-top-right-radius: 5px;
   border-top-left-radius: 5px;
+  /* box-shadow: 0px 0px 30px rgb(0 0 0 / 20%);  */
 }
 
 .fakeScreen {
@@ -88,13 +90,14 @@ h1{
   padding: 20px;
   border-bottom-left-radius: 5px;
   border-bottom-right-radius: 5px;
+  /* box-shadow: 0px 0px 30px rgb(0 0 0 / 20%);  */
 }
 
 .terminal-text {
   font-family: 'Source Code Pro', monospace;
   font-size: 35px;
   padding: 1%;
-  padding-top: 20%;
+  padding-top: 15%;
 }
 
 #typewriter:after {
@@ -231,11 +234,11 @@ h1{
   padding: 20px;
   color: whitesmoke;
 }
-.fa{
+.fab{
   opacity: 0.8;
   color:  whitesmoke;
 }
-.fa:hover{
+.fab:hover{
   opacity: 1;
 }
 .footer-basic{
@@ -356,10 +359,11 @@ h1{
 }
 @media screen and (max-width: 444px) {
   .terminal{
-    margin-top: 20vh;
+    margin-top: 15vh;
   }
   .terminal-text{
     padding-top: 0;
+    
   }
   .hero-sec{
     height: 90vh;
