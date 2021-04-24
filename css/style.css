@@ -235,8 +235,9 @@ h1{
   color: whitesmoke;
 }
 .fab{
+  letter-spacing: 8px;
   opacity: 0.8;
-  color:  whitesmoke;
+  color:  white;
 }
 .fab:hover{
   opacity: 1;
