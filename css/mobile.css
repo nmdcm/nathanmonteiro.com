@@ -1,5 +1,8 @@
 @media screen and (max-width: 541px) {
-
+  html, body {
+    max-width: 100%;
+    overflow-x: hidden;
+}
   .nav-wrapper{
     display: none;
   }
