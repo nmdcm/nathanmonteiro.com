@@ -1,6 +1,7 @@
 
 const textDisplay = document.getElementById('typewriter')
-const phrases = ['<span class="low-width">',"Hello World! ", '<span class="hand">&#128075;</span>', "<br>", "<br>", '<span>',"I'm", "<b>", " Nathan", "</b>", ", a Developer ", "&#x1F468;&#x200D;&#x1F4BB;", " based in Dubai"]
+// const phrases = ['<span class="low-width">',"Hello World!  ", '<span class="hand"> &#128075;</span>', "<br>", "<br>", '</span>',"I'm", "<b>", " Nathan,", "</b>"," a Dubai based Developer who loves to code and build new experiences."]
+const phrases = ['<span class="low-width">',"Hello World!  ", '<span class="hand"> &#128075;</span></span>', " "]
 let i = 0
 let j = 0
 let currentPhrase = []
@@ -40,34 +41,39 @@ function type() {
     return;
   }
 if (isBR) {
-    setTimeout(type, 500)
+    setTimeout(type, 400)
     isBR = false
   } else {
-    setTimeout(type, 130)
+    setTimeout(type, 150)
   }
 }
-type()
+// type()
 
 AOS.init({
   easing: 'ease-in-quad',
 });
 
 $("#button").click(function() {
-  document.querySelector(".scroll-indicator").style.animation = "disappear 1s";
   $('html, body').animate({
-      scrollTop: $("#work").offset().top
+      scrollTop: ($("#experience").offset().top)-60
   }, 1300);
   
 });
-$("#exp-title").click(function() {
+$("#exp-nav").click(function() {
   $('html, body').animate({
-      scrollTop: $("#work").offset().top
+      scrollTop: $("#experience").offset().top
   }, 1300);
 });
 
-$("#proj-title").click(function() {
+$("#proj-nav").click(function() {
   $('html, body').animate({
       scrollTop: $("#projects").offset().top
+  }, 1300);
+});
+
+$(".logo").click(function() {
+  $('html, body').animate({
+      scrollTop: 0
   }, 1300);
 });
 
@@ -90,5 +96,17 @@ $("#proj-title").click(function() {
 //   }
 
 // });
-
-
+(function () {
+  const header = document.querySelector('.mobile-header');
+    const icon = document.querySelector('.icon-container');
+    icon.onclick = function () {
+        header.classList.toggle('menu-open');
+    }
+}());
+(function () {
+  const header = document.querySelector('.mobile-header');
+    const link = document.querySelector('.menu-list');
+    link.onclick = function () {
+        header.classList.toggle('menu-open');
+    }
+}());

@@ -6,25 +6,67 @@
   <meta property="name" content="Nathan Monteiro" />
   <meta name="description" content="Hi! I am a Developer based in Dubai.">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name= "keywords" content = "nathan, monteiro, developer, data, data science, data analyst, programmer, dubai">
+  <meta name="keywords" content="nathan, monteiro, developer, data, data science, data analyst, programmer, dubai">
   <meta name="author" content="Nathan Monteiro">
   <title>Nathan Monteiro</title>
   <link rel="icon" type="image/png" href="favicons/favicon.ico" sizes="48x48">
   <link href="css/style.css" rel="stylesheet" type="text/css">
+  <link href="css/mobile.css" rel="stylesheet" type="text/css">
   <link href="https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.css" rel="stylesheet">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" />
-  
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+    integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w=="
+    crossorigin="anonymous" />
 
-  	
+
+
 
 </head>
 
 <body>
-
-  <section class="hero-sec">
-    <header>
-      <a class="logo">NATHAN MONTEIRO</a>
-    </header>
+  <header>
+    <nav id="navbar" class="">
+      <div class="nav-wrapper">
+        <!-- Navbar Logo -->
+        <div class="logo">
+          <!-- Logo Placeholder for Inlustration -->
+          <a href="#" id="logo-nav">NATHAN MONTEIRO</a>
+        </div>
+    
+        <!-- Navbar Links -->
+        <ul id="menu">
+          <li><a href="#experience" id="exp-nav">EXPERIENCE</a></li>
+       <li><a href="#projects" id="proj-nav">PROJECTS</a></li>
+       <li><a href="https://drive.google.com/file/d/1gLehqGYcoXr6PstoARtCvQT0Hu1OHr2Z/view?usp=sharing" target="_blank">RESUME</a></li>
+        </ul>
+      </div>
+      <div class="mobile-header">
+        <a href="#" class="logo" id="mobile-logo">NATHAN MONTEIRO</a>
+      <div class="icon-container">
+        <div id="menuicon">
+          <div class="bar bar1"></div>
+          <div class="bar bar2"></div>
+        </div>
+      </div>
+      <div class="mobile-menu">
+        <ul class="menu-list">
+          <li class="menu-item"><a href="#experience" class="test">EXPERIENCE</a>
+          </li>
+          <li class="menu-item"><a href="#projects">PROJECTS</a>
+          </li>
+          <li class="menu-item"><a href="https://drive.google.com/file/d/1gLehqGYcoXr6PstoARtCvQT0Hu1OHr2Z/view?usp=sharing" target="_blank">RESUME</a>
+          </li>
+          
+        </ul>
+      </div>
+    </div>
+    </nav>
+    
+    
+    
+    <!-- <a class="logo">NATHAN MONTEIRO</a> -->
+  </header>
+  <section class="hero-sec" id="home">
+    
 
     <div class="terminal">
       <div class=fakeMenu>
@@ -33,116 +75,160 @@
         <div class="fakeButtons fakeZoom"></div>
       </div>
       <div class="fakeScreen">
-        <div id="typewriter" class="terminal-text"></div>
+        <div class="terminal-text" id="terminal-text-animation1">Hello World! <span class="hand">👋</span></div>
+        <div class="terminal-text" id="terminal-text-animation2" >I'm <b> Nathan</b>, a Dubai-based Developer who loves to code and work with data.</div>
       </div>
     </div>
-    <a class="scroll-indicator" id="button" href="#work" >╲╱</a>
+    <a class="scroll-indicator" id="button" href="#experience"><i class="fas fa-arrow-circle-down"></i></a>
 
   </section>
-  <section class="experience" id="work">
-    <h1 id = "exp-title" data-aos="zoom-in"><a href="#work">EXPERIENCE</a></h1>
-    <div class="exp-list">
-      <div class="exp" data-aos="fade-up">
-        <a href="https://www.mbrsic.ae/" target="_blank"><img src="img/dewa.png" class="company-logo dewa-logo">
-          <span class="title">DEWA</span>
-          </i>
-        </a>
-        <span class="exp-dur-loc" style="float: right;">Apr 2021 - Present</span>
-        <div>
-          <span>Developer</span>
-          <span class="exp-dur-loc" style="float: right;">Dubai, United Arab Emirates</span>
-        </div>
-        <div style="margin-top: 15px;">Development of interactive experiences for the Mohammed bin Rashid Al Maktoum Solar Park using Unity and C#.</div>
-        <div class="skills" style="margin-top: 30px;"><span>Unity</span><span>C#</span>
-        </div>
-      </div>
+  <section class="experience" id="experience">
 
-      <div class="exp" data-aos="fade-up">
-        <a href="https://www.emirates.com" target="_blank"><img src="img/emirates_logo.svg" class="company-logo emirates-logo">
-          <span class="title">Emirates</span>
-        </a>
-        <span class="exp-dur-loc" style="float: right;">Mar 2020 - Aug 2020</span>
-        <div>
-          <span>Data Science Intern</span>
-          <span class="exp-dur-loc" style="float: right;">Dubai, United Arab Emirates</span>
+    <h1 id="exp-title" data-aos="fade-in">EXPERIENCE</h1>
+    <div class="exp-container">
+
+      <div class="timeline">
+        <div class="timeline-container primary" data-aos="fade-up" data-aos-delay="100">
+          <div class="timeline-icon">
+            <a href="https://www.mbrsic.ae/" target="_blank"><img src="img/dewa.png" class="company-logo dewa-logo"></a>
+          </div>
+          <div class="timeline-body">
+            <h4 class="timeline-title"><h3>DEWA</span><span class="exp-dur-loc"
+                style="float: right;">Apr
+                2021 - Present<br>Dubai, United Arab Emirates</span>
+                <a href="https://www.mbrsic.ae/" target="_blank"><img src="img/dewa.png" class="img-inside"></a>
+            </h4>
+            
+
+            <div>
+              <span>Full Stack Developer</span>
+              <span class="exp-dur-loc" style="float: right;"></span>
+            </div>
+            <p>Development of websites and interactive experiences for the Mohammed bin Rashid Al Maktoum Solar Park.</p>
+            <div class="skills"><span>Unity</span><span>ASP.NET</span><span>C#</span>
+            </div>
+          </div>
         </div>
-        <div style="margin-top: 15px;">Built Data Science pipelines from Data Ingestion to
-          Modeling and Prediction for use cases throughout the Emirates Group.</div>
-        <div class="skills" style="margin-top: 30px;"><span>Python</span><span>PySpark</span><span>PostgreSQL</span>
+        <div class="timeline-container primary" data-aos="fade-up" data-aos-delay="200">
+          <div class="timeline-icon">
+            <a href="https://www.emirates.com" target="_blank"><img src="img/emirates_logo.svg"
+                class="company-logo emirates-logo"></a>
+          </div>
+          <div class="timeline-body">
+            <h4 class="timeline-title"><h3>Emirates</span><span class="exp-dur-loc"
+                style="float: right;">Mar 2020 - Aug 2020<br>Dubai, United Arab Emirates</span>
+                <a href="https://www.emirates.com" target="_blank"><img src="img/emirates_logo.svg"
+                  class="img-inside emirates-logo"></a>
+            </h4>
+
+            <div>
+              <span>Data Science Intern</span>
+              <span class="exp-dur-loc" style="float: right;"></span>
+            </div>
+            <p>Built Data Science pipelines from Data Ingestion to
+              Modeling and Prediction for use cases throughout the Emirates Group.</p>
+            <div class="skills"><span>Python</span><span>PySpark</span><span>PostgreSQL</span>
+            </div>
+          </div>
         </div>
-      </div>
-      <div class="exp" data-aos="fade-up">
-        <a href="https://www.emirates.com" target="_blank"><img src="img/emirates_logo.svg" class="company-logo emirates-logo">
-          <span class="title">Emirates</span>
-        </a>
-        <span class="exp-dur-loc" style="float: right;">Aug 2018 - Jan 2019</span>
-        <div>
-          <span>Data Analyst Intern</span>
-          <span class="exp-dur-loc" style="float: right;">Dubai, United Arab Emirates</span>
+        <div class="timeline-container primary" data-aos="fade-up" data-aos-delay="300">
+          <div class="timeline-icon">
+            <a href="https://www.emirates.com" target="_blank"><img src="img/emirates_logo.svg"
+                class="company-logo emirates-logo"></a>
+          </div>
+          <div class="timeline-body">
+            <h4 class="timeline-title"><h3>Emirates</span><span class="exp-dur-loc"
+                style="float: right;">Aug 2018 - Jan 2019<br>Dubai, United Arab Emirates</span>
+                <a href="https://www.emirates.com" target="_blank"><img src="img/emirates_logo.svg"
+                  class="img-inside emirates-logo"></a>
+            </h4>
+
+            <div>
+              <span>Data Analyst Intern</span>
+              <span class="exp-dur-loc" style="float: right;"></span>
+            </div>
+            <p>Standardization of catering invoices from various suppliers of Emirates using Excel VBA along with cost
+              reduction analysis for various menu items.</p>
+            <div class="skills"><span>Excel VBA</span><span>Power BI</span>
+            </div>
+          </div>
         </div>
-        <div style="margin-top: 15px;">Standardization of catering invoices from various suppliers of Emirates using Excel VBA along with cost reduction analysis for various menu items.</div>
-        <div class="skills" style="margin-top: 30px;"><span>Excel VBA</span><span>Power BI</span></div>
       </div>
     </div>
 
   </section>
   <section class="projects" id="projects">
-    <h1 id="proj-title" data-aos="zoom-in"><a href="#projects">PROJECTS</a></h1>
-    <div class="proj" data-aos="fade-up">
+    <h1 id="proj-title" data-aos="fade-in" >PROJECTS</h1>
+    <div class="proj-container">
+      
+    <div class="proj" id="proj1"  data-aos="fade-right" data-aos-delay="100">
+      <img src="img/house.png" class ="proj-img"  style="float:right;">
       <div>
-        <span class="title">House Price Clustering</span>
-        <a  class="fab fa-github" href="https://github.com/nmdcm/house-price-clustering"
-          target="_blank"></a>
+        <h4>House Price Clustering</h4>
+        
       </div>
-      <div style="margin-top: 15px;">Analysis of the correlation between Housing Sales Prices and
-        various venues in the city of Toronto using the k-means algorithm and the Foursquare API.</div>
+      <p style="margin-top: 4px;">Analysis of the correlation between Housing Sales Prices and
+        various venues in the city of Toronto using the k-means algorithm and the Foursquare API.</p>
+        <a class="proj-links fab fa-github" href="https://github.com/nmdcm/house-price-clustering" target="_blank"></a>
     </div>
-    <div class="proj" data-aos="fade-up">
+    <div class="proj" id="proj2"  data-aos="fade-left" data-aos-delay="200">
+      <img src="img/doge2.png" class ="proj-img" style="float:left; margin-right: 10px;">
       <div>
-        <span class="title">Doge - Cryptocurrency bot</span>
-        <a  class="fab fa-github" href="https://github.com/nmdcm/doge-crypto-bot" target="_blank"></a>
-        <a class="fab fa-telegram" aria-hidden="true" href="https://t.me/DoggeCoinBot" target="_blank"></a>
+        <h4>Doge - Cryptocurrency Bot</h4>
+        
       </div>
-      <div style="margin-top: 15px;">A telegram bot that uses multiple APIs to return the latest price, stats and news of various cryptocurrencies based on the parameters specified.
-        </div>
+      <p style="margin-top: 4px;">A telegram bot that uses multiple APIs to return the latest price, stats and news
+        of various cryptocurrencies based on the parameters specified.
+      </p>
+      <a class="proj-links fab fa-github" href="https://github.com/nmdcm/doge-crypto-bot" target="_blank"></a>
+        <a class="proj-links fab fa-telegram" aria-hidden="true" href="https://t.me/DoggeCoinBot" target="_blank"></a>
     </div>
+  
+  <div class="proj" id="proj3"  data-aos="fade-right" data-aos-delay="300">
+    <img src="img/titanic.png" class ="proj-img"  style="float:right;">
+    <div>
+      <h4>Titanic Survival Prediction</h4>
+      
     </div>
-    <div class="proj" data-aos="fade-up">
-      <div>
-        <span class="title">Titanic Survival Prediction</span>
-        <a  class="fab fa-github" href="https://github.com/nmdcm/titanic-survival-prediction"
-          target="_blank"></a>
-      </div>
-      <div style="margin-top: 15px;">Analysis of data of passengers on the Titanic and applying the tools of machine learning to predict which passengers survived the tragedy.
-      </div>
+    <p style="margin-top: 4px;">Analysis of data of passengers on the Titanic and applying the tools of machine
+      learning to predict which passengers survived the tragedy.
+    </p>
+    <a class="proj-links fab fa-github" href="https://github.com/nmdcm/titanic-survival-prediction" target="_blank"></a>
+  </div>
+  
+  <div class="proj" id="proj4" data-aos="fade-left" data-aos-delay="400">
+    <img src="img/sudoku.png" class ="proj-img"  style="float:left; margin-right: 12px;">
+    <div>
+      <h4>Sudoku solver using Backtracking</h4>
     </div>
-    </div>
-    <div class="proj" data-aos="fade-up">
-      <div>
-        <span class="title">Sudoku solver using Backtracking</span>
-        <a  class="fab fa-github" href="https://github.com/nmdcm/sudoku-backtracking"
-          target="_blank"></a>
-      </div>
-      <div style="margin-top: 15px;">A sudoku solver that takes a sudoku puzzle as an input and computes a solution using Backtracking.
-        </div>
-    </div>
-    </div>
-    
+    <p style="margin-top: 4px;">A sudoku solver that takes a sudoku puzzle as an input and computes a solution
+      using Backtracking.
+    </p>
+    <a class="proj-links fab fa-github" href="https://github.com/nmdcm/sudoku-backtracking" target="_blank"></a>
+  </div>
+
+  </div>
+
 
   </section>
+  <div class="footer-basic">
+    <footer>
+      <h1 data-aos="fade-in" data-aos-delay="100">CONNECT</h1>
+      <div class="social" data-aos="fade-in" data-aos-delay="300" data-aos-offset="0">
+        <a href="mailto:nathan.m.monteiro@gmail.com" ><div class="circle" ><i class="soc fas fa-envelope"></i></div></a>
+        <a href="https://github.com/nmdcm/" target="_blank"><div class="circle"><i class="soc fab fa-github"></i></div></a>
+        <a href="https://www.linkedin.com/in/nmdcm/" target="_blank"><div class="circle"><i class="soc fab fa-linkedin-in"></i></div></a>
+        
+        <a href="tel:+971525663991" ><div class="circle"><i class="soc fas fa-phone-alt"></i></div></a>
+              
+      
+      </div>
+    </footer>
+  </div>
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
   <script src="https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.js"></script>
   <script src="main.js"></script>
 </body>
-<div class="footer-basic">
-  <footer>
-    <ul class="list-inline">
-      <li class="list-inline-item"><a href="mailto:nathan.m.monteiro@gmail.com" target="_blank">Email</a></li>
-      <li class="list-inline-item"><a href="https://github.com/nmdcm/" target="_blank">GitHub</a></li>
-      <li class="list-inline-item"><a href="https://www.linkedin.com/in/nmdcm/" target="_blank">LinkedIn</a></li>
-      <li class="list-inline-item"><a href="https://drive.google.com/file/d/1gLehqGYcoXr6PstoARtCvQT0Hu1OHr2Z/view?usp=sharing" target="_blank">Resume</a></li>
-    </ul>
-  </footer>
-</div>
+
 
 </html>
