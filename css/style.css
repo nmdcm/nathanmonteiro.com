@@ -19,6 +19,7 @@ body {
 a{
   color: white;
   text-decoration: none;
+  cursor: pointer;
 }
 h1{
   padding: 1%;
