@@ -59,13 +59,13 @@ $("#button").click(function() {
   }, 1300);
   
 });
-$("#exp-nav").click(function() {
+$(".exp-nav").click(function() {
   $('html, body').animate({
       scrollTop: $("#experience").offset().top
   }, 1300);
 });
 
-$("#proj-nav").click(function() {
+$(".proj-nav").click(function() {
   $('html, body').animate({
       scrollTop: $("#projects").offset().top
   }, 1300);
