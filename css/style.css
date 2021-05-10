@@ -235,11 +235,40 @@ h1{
   animation-delay: 2s;
   animation-duration: 2s;
   animation-iteration-count: 1;
-  transform-origin: 70% 70%;
+  transform-origin: 70% 70%; 
   display: inline-block;
+  cursor: pointer;
 }
+.hand:hover{
+  animation: wave-animation2 2s;
+  animation-iteration-count: 1;
+} 
+
 
 @keyframes wave-animation {
+  0% {
+    transform: rotate(0deg);
+}
+10% {
+    transform: rotate(-10deg);
+  }
+20% {
+    transform: rotate(12deg);
+  }
+30% {
+    transform: rotate(-10deg);
+}
+40% {
+    transform: rotate(9deg);
+}
+50% {
+    transform: rotate(0deg);
+}
+100% {
+    transform: rotate(0deg);
+} 
+}
+@keyframes wave-animation2 {
   0% {
     transform: rotate(0deg);
 }
