@@ -1,9 +1,4 @@
-@media screen and (max-width: 1024px) {
-.logo{
-  margin: 0;
-}
-}
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1050px) {
 
   .nav-wrapper{
     display: none;
@@ -40,7 +35,7 @@
   .mobile-header ul.menu-list{
     position: relative;
     display: block;
-    padding-top: 50%;
+    padding-top: 25vh;
     margin: 0 auto;
     list-style: none;
     
@@ -145,6 +140,17 @@
     -webkit-transform: translateY(3px) rotate(-45deg);
     transform: translateY(3px) rotate(-45deg);
   }
+  .terminal{
+    width:75vw;
+  }
+  
+}
+@media screen and (max-width: 900px) { 
+.terminal-text{
+  font-size: 2em;
+}
+}
+@media screen and (max-width: 850px) { 
   #proj1{
     float:none;
 }
@@ -157,13 +163,7 @@
 #proj4{
     float:none;
 }
-.terminal{
-  width:75vw;
-}
 
-.terminal-text{
-  font-size: 2em;
-}
 .proj{
   max-height: initial;
   min-height: 200px;
@@ -345,7 +345,7 @@
 .mobile-header ul.menu-list{
 	position: relative;
 	display: block;
-	padding-top: 50%;
+	padding-top: 25vh;
   margin: 0 auto;
 	list-style: none;
   
@@ -469,7 +469,46 @@
 
   }
 }
+@media screen and (max-height: 400px) {
+  .hero-sec{
+    height: 100vh;
+  }
+  .fakeButtons{
+    display: none;
+  }
+  .fakeMenu{
+    display: none;
+  }
+  .fakeScreen{
+    background-color: #1f2328;
+  }
+  .terminal{
+    width: 95vw;
+    box-shadow: none;
+    margin-left:2%;
+    margin-top: 15vh;
+    padding: 0;
+    top:45%;
+  }
+  .terminal-text{
+    font-size: 2em;
+    padding: 0;
+    margin:0;
+  }
+  #terminal-text-animation2{
+    margin-top: 5vh;
+  }
 
+  .scroll-indicator{
+    display: none;
+  }
+  .mobile-header ul.menu-list{
+
+    padding-top: 2%;
+
+    
+  }
+}
 
     
       
