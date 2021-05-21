@@ -469,7 +469,7 @@
 
   }
 }
-@media screen and (max-height: 400px) {
+@media screen and (max-height: 500px) {
   .hero-sec{
     height: 100vh;
   }

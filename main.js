@@ -77,7 +77,15 @@ $(".logo").click(function() {
   }, 1300);
 });
 
-
+$(function() {
+  $("#hand")
+    .on("click", function(){
+    $(this).addClass('animate-hand');
+  })
+    .on("animationend", function(){
+    $(this).removeClass('animate-hand');
+  });
+});
 // var test = true;
 
 
@@ -111,3 +119,4 @@ $(".logo").click(function() {
         header.classList.toggle('menu-open');
     }
 }());
+

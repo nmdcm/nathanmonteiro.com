@@ -1,4 +1,0 @@
-This is a Brave Rewards publisher verification file.
-
-Domain: nathanmonteiro.com
-Token: 9145af2dfc69c165119df79eaf123cc552ac10a76375f9c0fe6a0fc515fb456e

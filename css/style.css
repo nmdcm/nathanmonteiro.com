@@ -241,7 +241,7 @@ h1{
   display: inline-block;
   cursor: pointer;
 }
-.hand:hover{
+.animate-hand{
   animation: wave-animation2 2s;
   animation-iteration-count: 1;
 } 
