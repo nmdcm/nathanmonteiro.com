@@ -1,13 +1,11 @@
-/* @import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@400;500&display=swap'); */
 @import url('https://fonts.googleapis.com/css2?family=Nunito:wght@400;600&display=swap');
-/* @import url('https://fonts.googleapis.com/css2?family=Nunito+Sans&display=swap'); */
 
 * {
   margin: 0;
   padding: 0;
 }
 ::-webkit-scrollbar {
-  width: 0;  /* Remove scrollbar space */
+  width: 0; 
 }
 body {
   background-color: #1f2328;
@@ -35,16 +33,6 @@ h1{
   box-sizing: border-box;
 }
 
-/* .logo {
-  padding: 1%;
-  display: block;
-  text-align: center;
-  font-size: 1.8rem;
-  font-weight: 600;
-  color: whitesmoke;
-  background-color: #1d1d1d;
-  letter-spacing: 4px;
-} */
 /* Navbar */
 #navbar {
   position: fixed;
@@ -194,7 +182,7 @@ h1{
 
 .terminal-text {
   /* font-family: 'Nunito Sans', sans-serif; */
-  font-size: 39px;
+  font-size: 33px;
   padding: 4%;
   color:white;
   letter-spacing: 2px;

@@ -1,3 +1,4 @@
+
 @media screen and (max-width: 1050px) {
 
   .nav-wrapper{
@@ -509,6 +510,91 @@
     
   }
 }
+@media screen and (max-width: 2560px) and (min-width: 1701px) {
+  h4{
+    font-size: 2em;
+  }
+  .terminal{
+    width: 40vw;
+    
+    box-shadow: none;
+    padding: 0;
+    /* top:50%; */
+  }
+  .terminal-text{
+    font-size: 3.3em;
+  }
+  .terminal{
+    width: 40vw;
+  }
+  .terminal-text{
+    font-size:3.5em;
+  }
+  .logo{
+    font-size: 1.9em;
+    letter-spacing: 5px;
+  }
+  #menu{
+    font-size:1.5em;
+    letter-spacing: 4px;
+  }
+  #navbar{
+    height:100px;
+    line-height: 100px; 
+    /* Fix hover animation */
+  }
+  .exp-container{
+    max-width: 50vw;
+  }
+  h1{
+    font-size: 2em;
+  }
+  h3{
+    font-size: 2em;
+  } 
+  p{
+    font-size: 1.5em;
+  }
+  .proj-container{
+    max-width: 45vw;
+  }
+  .exp-dur-loc{
+    font-size: 0.6em;
+  }
+  .skills span{
+    font-size: 0.9em;
+  }
 
+  .scroll-indicator{
+    font-size: 50px;
+  }
+  .nav-wrapper li a:before, #navbar li a:after{
+    bottom:-30px;
+  }
+ 
+  .fas, .fab{
+    font-size: 30px;
+  }
+  .timeline .timeline-container .timeline-icon img{
+    width: 150%;
+    height: 150%;
+  }
+  .timeline::before{
+    left:-30px;
+  }
+  .timeline .timeline-container .timeline-icon{
+    left:-153px;
+  }
+  .proj{
+    width: 700px;
+    max-height: initial;
+  }
+  .proj-img{
+    max-height: initial;
+  }
+  .designation{
+    font-size: 22px;
+  }
+}
     
       

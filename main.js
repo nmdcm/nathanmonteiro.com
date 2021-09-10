@@ -1,58 +1,8 @@
-
-const textDisplay = document.getElementById('typewriter')
-// const phrases = ['<span class="low-width">',"Hello World!  ", '<span class="hand"> &#128075;</span>', "<br>", "<br>", '</span>',"I'm", "<b>", " Nathan,", "</b>"," a Dubai based Developer who loves to code and build new experiences."]
-const phrases = ['<span class="low-width">',"Hello World!  ", '<span class="hand"> &#128075;</span></span>', " "]
-let i = 0
-let j = 0
-let currentPhrase = []
-let isBR = false
-
-async function displayAnimations() {
-  await new Promise(r => setTimeout(r, 500));
-  document.querySelector(".hand").style.animationPlayState = "running";
-  await new Promise(r => setTimeout(r, 2000));
-  document.querySelector(".scroll-indicator").style.animationPlayState = "running";
-  
-}
-
-function type() {
-  textDisplay.innerHTML = currentPhrase.join('')
-  if (i < phrases.length) {
-    if (j <= phrases[i].length) {
-      if (phrases[i][j] == '<' || phrases[i][j] == '&') {
-        if (phrases[i] == '<br>') {
-          isBR = true
-        }
-        currentPhrase.push(phrases[i])
-        i++;
-        j = 0
-      } else {
-        currentPhrase.push(phrases[i][j])
-        j++
-        textDisplay.innerHTML = currentPhrase.join('')
-      }
-    }
-    if (j == phrases[i].length) {
-      i++;
-      j = 0;
-    }
-  } else {
-    displayAnimations()
-    return;
-  }
-if (isBR) {
-    setTimeout(type, 400)
-    isBR = false
-  } else {
-    setTimeout(type, 150)
-  }
-}
-// type()
-
 AOS.init({
   easing: 'ease-in-quad',
 });
 
+//Scroll Links
 $("#button").click(function() {
   $('html, body').animate({
       scrollTop: ($("#experience").offset().top)-60
@@ -77,6 +27,7 @@ $(".logo").click(function() {
   }, 1300);
 });
 
+//Hand Animation
 $(function() {
   $("#hand")
     .on("click", function(){
@@ -86,25 +37,8 @@ $(function() {
     $(this).removeClass('animate-hand');
   });
 });
-// var test = true;
 
-
-// $(window).scroll(function() {
-//     var scroll = $(window).scrollTop();
-//     if(scroll > 10 && test) {
-//       $('html, body').animate({
-//         scrollTop: $("#work").offset().top
-//     }, 1300);
-//     test = false;
-//     } 
-    
-// });
-// $(window).scroll(function() {
-//   if(window.scrollY<10){
-//       test = true;
-//   }
-
-// });
+//Mobile Menu
 (function () {
   const header = document.querySelector('.mobile-header');
     const icon = document.querySelector('.icon-container');
