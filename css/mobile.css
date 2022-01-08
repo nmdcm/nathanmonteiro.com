@@ -470,7 +470,8 @@
     }
 }
 
-@media screen and (max-width: 2560px) and (min-width: 1701px) {
+
+/* @media screen and (max-width: 2560px) and (min-width: 1701px) {
     h4 {
         font-size: 2em;
     }
@@ -478,7 +479,7 @@
         width: 40vw;
         box-shadow: none;
         padding: 0;
-        /* top:50%; */
+        top:50%; 
     }
     .terminal-text {
         font-size: 33px;
@@ -497,7 +498,7 @@
     #navbar {
         height: 100px;
         line-height: 100px;
-        /* Fix hover animation */
+        Fix hover animation 
     }
     .exp-container {
         max-width: 50vw;
@@ -551,4 +552,4 @@
     .designation {
         font-size: 22px;
     }
-}
+} */
