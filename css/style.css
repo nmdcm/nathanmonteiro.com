@@ -146,6 +146,7 @@ h1 {
     /* margin-top: 12vh; */
 }
 
+
 .fakeButtons {
     height: 12px;
     width: 12px;
@@ -361,6 +362,18 @@ h1 {
 .dewa-logo {
     background-color: white;
 }
+
+.texl-logo {
+    background-color: #1f2328;
+    padding:10px;
+    margin: 0px;
+}
+
+.texl-logo-mobile {
+    background-color: #1f2328!important;
+    padding: 2px;
+}
+
 
 .emirates-logo {
     background-color: #d71a21;
